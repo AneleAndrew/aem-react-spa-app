@@ -1,0 +1,34 @@
+// .vscode/tasks.json
+{
+    // examples of using repo to push and pull files and folders from a server running at localhost:4502
+    // the tasks with folders actions will be perfomed on the folder of the current file open in the editor
+    // see https://code.visualstudio.com/docs/editor/variables-reference for more details
+    
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "put file",
+            "type": "shell",
+            "command": "repo put -f ${file}",
+            "problemMatcher": []
+        },
+        {
+            "label": "put folder",
+            "type": "shell",
+            "command": "repo put -f ${fileDirname}",
+            "problemMatcher": []
+        },
+        {
+            "label": "get file",
+            "type": "shell",
+            "command": "repo get -f ${file}",
+            "problemMatcher": []
+        },
+        {
+            "label": "get folder",
+            "type": "shell",
+            "command": "repo get -f ${fileDirname}",
+            "problemMatcher": []
+        }
+    ]
+}

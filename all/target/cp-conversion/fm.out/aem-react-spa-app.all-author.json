@@ -1,0 +1,36 @@
+{
+  "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~aem-react-spa-app":    {
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/aem-react-spa-app.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT|com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.config:1.0.0-SNAPSHOT"
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~aem-react-spa-app":    {
+      "mobile.resourceTypes":[
+        "aem-react-spa-app/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT|com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

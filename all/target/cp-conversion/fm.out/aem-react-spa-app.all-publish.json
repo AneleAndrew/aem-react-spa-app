@@ -1,0 +1,12 @@
+{
+  "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:publish:1.0.0-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/aem-react-spa-app/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT|com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.config:1.0.0-SNAPSHOT"
+    }
+  }
+}

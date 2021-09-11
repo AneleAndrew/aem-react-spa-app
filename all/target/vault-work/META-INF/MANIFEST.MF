@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: My AEM React Spa App - All
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.wundermanthompson.aem.spa.react:aem-react-spa-ap
+ p.all:1.0.0-SNAPSHOT
+Content-Package-Description: All content package for My AEM React Spa Ap
+ p
+Content-Package-Roots: /apps/aem-react-spa-app-packages,/apps/aem-react-
+ spa-app-vendor-packages
+

@@ -1,0 +1,11 @@
+com/wundermanthompson/aem/spa/react/core/servlets/package-info.class
+com/wundermanthompson/aem/spa/react/core/listeners/SimpleResourceListener.class
+com/wundermanthompson/aem/spa/react/core/models/package-info.class
+com/wundermanthompson/aem/spa/react/core/listeners/package-info.class
+com/wundermanthompson/aem/spa/react/core/schedulers/SimpleScheduledTask$Config.class
+com/wundermanthompson/aem/spa/react/core/filters/LoggingFilter.class
+com/wundermanthompson/aem/spa/react/core/filters/package-info.class
+com/wundermanthompson/aem/spa/react/core/models/HelloWorldModel.class
+com/wundermanthompson/aem/spa/react/core/schedulers/package-info.class
+com/wundermanthompson/aem/spa/react/core/schedulers/SimpleScheduledTask.class
+com/wundermanthompson/aem/spa/react/core/servlets/SimpleServlet.class

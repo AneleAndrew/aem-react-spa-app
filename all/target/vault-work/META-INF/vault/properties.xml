@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>My AEM React Spa App - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2021-09-10T16:24:46.287Z</entry>
+<entry key="groupId">com.wundermanthompson.aem.spa.react</entry>
+<entry key="name">aem-react-spa-app.all</entry>
+<entry key="description">All content package for My AEM React Spa App</entry>
+<entry key="artifactId">aem-react-spa-app.all</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.wundermanthompson.aem.spa.react</entry>
+</properties>

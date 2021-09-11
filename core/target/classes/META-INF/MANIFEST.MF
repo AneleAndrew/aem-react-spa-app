@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bundle-Category: My AEM React Spa App
+Bundle-Description: Core bundle for My AEM React Spa App
+Bundle-ManifestVersion: 2
+Bundle-Name: My AEM React Spa App - Core
+Bundle-SymbolicName: aem-react-spa-app.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.wundermanthompson.aem.spa.react.core.filters;versi
+ on="1.0";uses:="javax.servlet",com.wundermanthompson.aem.spa.react.co
+ re.listeners;version="1.0";uses:="org.osgi.service.event",com.wunderm
+ anthompson.aem.spa.react.core.models;version="1.0";uses:="javax.annot
+ ation,org.apache.sling.api.resource,org.apache.sling.models.annotatio
+ ns,org.apache.sling.models.annotations.injectorspecific",com.wunderma
+ nthompson.aem.spa.react.core.schedulers;version="1.0",com.wundermanth
+ ompson.aem.spa.react.core.servlets;version="1.0";uses:="javax.servlet
+ ,org.apache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
+ rsion="[1.29,2)",com.wundermanthompson.aem.spa.react.core.filters;ver
+ sion="[1.0,2)",com.wundermanthompson.aem.spa.react.core.listeners;ver
+ sion="[1.0,2)",com.wundermanthompson.aem.spa.react.core.schedulers;ve
+ rsion="[1.0,2)",com.wundermanthompson.aem.spa.react.core.servlets;ver
+ sion="[1.0,2)",javax.servlet;version="[2.6,3)",org.apache.sling.api;v
+ ersion="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",org.a
+ pache.sling.api.resource;version="[2.12,3)",org.apache.sling.api.serv
+ lets;version="[2.3,3)",org.apache.sling.models.annotations;version="[
+ 1.5,2)",org.apache.sling.models.annotations.injectorspecific;version=
+ "[1.1,2)",org.osgi.service.event;version="[1.4,2)",org.slf4j;version=
+ "[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.osgi.service.event.EventHandler";uses:="org.osgi.service.
+ event"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.wundermanthompson.aem.spa.react.core.f
+ ilters.LoggingFilter.xml,OSGI-INF/com.wundermanthompson.aem.spa.react
+ .core.listeners.SimpleResourceListener.xml,OSGI-INF/com.wundermanthom
+ pson.aem.spa.react.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/c
+ om.wundermanthompson.aem.spa.react.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.wundermanthompson.aem.spa.react.core.models.H
+ elloWorldModel
+

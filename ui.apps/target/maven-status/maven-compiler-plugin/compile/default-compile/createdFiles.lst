@@ -1,0 +1,7 @@
+org/apache/sling/scripting/sightly/apps/aem__002d__react__002d__spa__002d__app/components/page/customfooterlibs__002e__html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__react__002d__spa__002d__app/clientlibs/clientlib__002d__react/resources/index__002e__html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__react__002d__spa__002d__app/components/page/customheaderlibs__002e__html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__react__002d__spa__002d__app/components/xfpage/body__002e__html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__react__002d__spa__002d__app/components/helloworld/helloworld__002e__html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__react__002d__spa__002d__app/components/xfpage/customheaderlibs__002e__html.class
+org/apache/sling/scripting/sightly/apps/aem__002d__react__002d__spa__002d__app/components/xfpage/customfooterlibs__002e__html.class

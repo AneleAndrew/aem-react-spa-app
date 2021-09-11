@@ -1,0 +1,157 @@
+{
+  "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:user-aggregated-author:1.0.0-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.adobe.aem:spa.project.core.core:1.3.8",
+      "feature-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT",
+      "start-order":"20",
+      "content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.core:1.0.0-SNAPSHOT",
+      "feature-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT",
+      "start-order":"20",
+      "content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "com.adobe.granite.cors.impl.CORSPolicyImpl~aem-react-spa-app":    {
+      ":configurator:content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT|com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.config:1.0.0-SNAPSHOT",
+      "alloworigin":[
+        "http://localhost:3000"
+      ],
+      "allowedpaths":[
+        "/(content|conf)/aem-react-spa-app.*"
+      ],
+      "supportedheaders":[
+        "Authorization",
+        "Origin",
+        "Accept",
+        "X-Requested-With",
+        "Content-Type",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "supportedmethods":[
+        "GET",
+        "HEAD"
+      ],
+      "alloworiginregexp":[
+      ],
+      ":configurator:feature-origins-supportedmethods":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-alloworigin":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-alloworiginregexp":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-supportedheaders":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-allowedpaths":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ]
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~aem-react-spa-app":    {
+      ":configurator:content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT|com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.config:1.0.0-SNAPSHOT",
+      "mobile.resourceTypes":[
+        "aem-react-spa-app/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:feature-origins-mobile.resourceTypes":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-README":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT"
+      ]
+    },
+    "org.apache.sling.commons.log.LogManager.factory.config~aem-react-spa-app":    {
+      ":configurator:content-package-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:1.0.0-SNAPSHOT|com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.config:1.0.0-SNAPSHOT",
+      "org.apache.sling.commons.log.names":[
+        "com.wundermanthompson.aem.spa.react"
+      ],
+      "org.apache.sling.commons.log.level":"INFO",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"false",
+      ":configurator:feature-origins-org.apache.sling.commons.log.names":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.file":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.level":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins-org.apache.sling.commons.log.additiv":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ],
+      ":configurator:feature-origins":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ]
+    }
+  },
+  "assembled-features:ARTIFACTS|TRANSIENT":[
+    "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:author:1.0.0-SNAPSHOT",
+    "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+  ],
+  "content-packages:ARTIFACTS|true":[
+    {
+      "id":"com.adobe.aem:spa.project.core.ui.apps:zip:cp2fm-converted:1.3.8",
+      "feature-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.content:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+      "feature-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.config:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+      "feature-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.apps:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+      "feature-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+    },
+    {
+      "id":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:zip:cp2fm-converted:1.0.0-SNAPSHOT",
+      "feature-origins":"com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+    }
+  ],
+  "repoinit:TEXT|true":[
+    "create path (sling:OrderedFolder) /content/dam/aem-react-spa-app",
+    "        create path (nt:unstructured) /content/dam/aem-react-spa-app/jcr:content",
+    "        set properties on /content/dam/aem-react-spa-app/jcr:content",
+    "        set cq:conf{String} to /conf/aem-react-spa-app",
+    "        set jcr:title{String} to \"My AEM React Spa App\"",
+    "        end",
+    "create path (sling:OrderedFolder) /content/dam/aem-react-spa-app",
+    "create path (nt:unstructured) /content/dam/aem-react-spa-app/jcr:content",
+    "set properties on /content/dam/aem-react-spa-app/jcr:content",
+    "set cq:conf{String} to /conf/aem-react-spa-app",
+    "set jcr:title{String} to \"My AEM React Spa App\"",
+    "end"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.adobe.aem.spa.project.core.models",
+        "com.wundermanthompson.aem.spa.react.core.filters",
+        "com.wundermanthompson.aem.spa.react.core.listeners",
+        "com.wundermanthompson.aem.spa.react.core.models",
+        "com.wundermanthompson.aem.spa.react.core.schedulers",
+        "com.wundermanthompson.aem.spa.react.core.servlets"
+      ],
+      "feature-origins":[
+        "com.wundermanthompson.aem.spa.react:aem-react-spa-app.all:slingosgifeature:1.0.0-SNAPSHOT"
+      ]
+    }
+  ]
+}

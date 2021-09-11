@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: My AEM React Spa App - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.wundermanthompson.aem.spa.react:aem-react-spa-ap
+ p.ui.content:1.0.0-SNAPSHOT
+Content-Package-Description: UI content package for My AEM React Spa App
+Content-Package-Dependencies: com.wundermanthompson.aem.spa.react:aem-re
+ act-spa-app.ui.apps:1.0.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.wundermanthompson.aem.spa.re
+ act:aem-react-spa-app.ui.apps:1.0.0-SNAPSHOT=maven:com.wundermanthompso
+ n.aem.spa.react:aem-react-spa-app.ui.apps:1.0.0-SNAPSHOT:zip
+Content-Package-Roots: /conf/aem-react-spa-app,/content/aem-react-spa-ap
+ p,/content/dam/aem-react-spa-app/asset.jpg,/content/experience-fragment
+ s/aem-react-spa-app
+

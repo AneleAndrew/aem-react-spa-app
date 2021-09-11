@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>My AEM React Spa App - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="dependencies-locations">com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.apps:1.0.0-SNAPSHOT=maven:com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.apps:1.0.0-SNAPSHOT:zip</entry>
+<entry key="created">2021-09-10T16:24:50.517Z</entry>
+<entry key="groupId">com.wundermanthompson.aem.spa.react</entry>
+<entry key="description">UI content package for My AEM React Spa App</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.wundermanthompson.aem.spa.react:aem-react-spa-app.ui.apps:1.0.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">aem-react-spa-app.ui.content</entry>
+<entry key="artifactId">aem-react-spa-app.ui.content</entry>
+<entry key="group">com.wundermanthompson.aem.spa.react</entry>
+</properties>

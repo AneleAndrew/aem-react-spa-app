@@ -1,0 +1,4 @@
+com/wundermanthompson/aem/spa/react/it/tests/CreatePageIT.class
+com/wundermanthompson/aem/spa/react/it/tests/PublishPageValidationIT.class
+com/wundermanthompson/aem/spa/react/it/tests/GetPageIT.class
+com/wundermanthompson/aem/spa/react/it/tests/HtmlUnitClient.class

@@ -1,0 +1,5 @@
+com/wundermanthompson/aem/spa/react/core/schedulers/SimpleScheduledTaskTest.class
+com/wundermanthompson/aem/spa/react/core/servlets/SimpleServletTest.class
+com/wundermanthompson/aem/spa/react/core/models/HelloWorldModelTest.class
+com/wundermanthompson/aem/spa/react/core/listeners/SimpleResourceListenerTest.class
+com/wundermanthompson/aem/spa/react/core/filters/LoggingFilterTest.class
